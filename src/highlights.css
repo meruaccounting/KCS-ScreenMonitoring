@@ -1,0 +1,121 @@
+.highlight {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--color-tertiary);
+  /* border: 2px solid red; */
+  font-family: "Poppins", "san-serif";
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+}
+.high1 {
+  float: left;
+  /* border: 2px solid blue; */
+  margin: 1rem;
+  padding: 2rem;
+  width: 40%;
+}
+.time {
+  font-size: 3rem;
+  background-color: var(--color-primary);
+  color: beige;
+  /* padding: 0.5rem; */
+  text-align: center;
+  border-radius: 20px;
+}
+.totaltime {
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0.8rem auto;
+  width: 80%;
+
+  text-align: center;
+  background-color: var(--color-primary-darker);
+  border-radius: 20px;
+}
+.weekmonth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.week {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.month {
+  font-size: 2rem;
+}
+.week a,
+.month a {
+  text-decoration: none;
+}
+.high2 {
+  /* border: 2px solid green; */
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 2rem;
+  width: 60%;
+}
+.head {
+  float: left;
+  padding: 0 2rem;
+  font-size: 3rem;
+}
+.head a {
+  text-decoration: none;
+}
+.taskhead {
+  padding-right: 1rem;
+}
+.tasklist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+}
+.project {
+  float: left;
+  width: 70%;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+.task {
+  background-color: var(--color-secondary-darker);
+  color: antiquewhite;
+  border-radius: 20px;
+  font-weight: 700;
+  padding: 1rem;
+  font-size: 3rem;
+}
+.subtask {
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+  border-radius: 20px;
+  width: 50%;
+  height: 4rem;
+  padding: 0.3rem 1rem;
+  margin: 0.5rem;
+
+  font-size: 1.5rem;
+}
+.timespend {
+  float: right;
+  width: 30%;
+  height: 6rem;
+  margin-left: 1rem;
+  border-radius: 20px;
+  padding: 1rem;
+  background-color: var(--color-secondary-darker);
+  color: antiquewhite;
+  text-align: center;
+  /* padding: 1rem;
+  margin: 1rem; */
+  font-size: 2rem;
+}
