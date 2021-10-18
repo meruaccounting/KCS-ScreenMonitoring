@@ -1,0 +1,39 @@
+.dashboard-container {
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-rows: 50px 100px;
+    /* grid-auto-rows: ; */
+    grid-gap: 2px;
+    
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: #a3cfcd;
+    
+}
+
+.dashboard-head {
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+table {
+    border-spacing: 5px 10px;
+}
+
+
+tr {
+    font-size: 15px;
+    color: white;
+    
+}
+
+tr th{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #2a272a;
+    
+}

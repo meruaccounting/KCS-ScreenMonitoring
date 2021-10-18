@@ -13,7 +13,10 @@ import HorizontalDate from "./components/HorizontalDate";
 import Timeline from "./components/Timeline";
 import Highlights from "./components/highlights";
 import Screenshotdisp from "./components/Screenshotdisp";
+
+
 function App() {
+  
   return (
     <div>
       <Header />
@@ -22,6 +25,7 @@ function App() {
       <Timeline />
       <Screenshotdisp />
       <Footer />
+     
     </div>
   );
 }

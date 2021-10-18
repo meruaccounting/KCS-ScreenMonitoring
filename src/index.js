@@ -3,6 +3,29 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initializeApp } from 'firebase/app';
+
+
+// Your web app's Firebase configuration
+
+const firebaseConfig =  {
+
+  apiKey: "AIzaSyBR6UHV5ITc6SW5YSp0YDCIwl-ZchMRKcY",
+
+  authDomain: "kcs-screen-monitoring.firebaseapp.com",
+
+  projectId: "kcs-screen-monitoring",
+
+  storageBucket: "kcs-screen-monitoring.appspot.com",
+
+  messagingSenderId: "141814134896",
+
+  appId: "1:141814134896:web:f2ce9619429194358b9cb5"
+
+};
+const app = initializeApp(firebaseConfig);
+
+
 
 ReactDOM.render(
   <React.StrictMode>
