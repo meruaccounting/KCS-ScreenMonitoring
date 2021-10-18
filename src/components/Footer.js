@@ -1,37 +1,36 @@
 function Footer(props) {
   return (
     <div>
-      <footer class="footer">
-        <ul class="footer__nav">
-          <li class="footer__item">
-            <a class="footer__link" href="#">
+      <footer className="footer">
+        <ul className="footer__nav">
+          <li className="footer__item">
+            <a className="footer__link" href="#">
               About
             </a>
           </li>
 
-          <li class="footer__item">
-            <a class="footer__link" href="#">
+          <li className="footer__item">
+            <a className="footer__link" href="#">
               Privacy Policy
             </a>
           </li>
 
-          <li class="footer__item">
-            <a class="footer__link" href="#">
+          <li className="footer__item">
+            <a className="footer__link" href="#">
               Contact Us
             </a>
           </li>
 
-          <li class="footer__item">
-            <a class="footer__link" href="#">
-              <i class="fab fa-instagram"></i>
+          <li className="footer__item">
+            <a className="footer__link" href="#">
+              <i className="fab fa-instagram"></i>
             </a>
           </li>
         </ul>
-        <img src="img/icon.png" alt="Logo" class="footer__logo" />
-        <p class="footer__copyright">
+        <p className="footer__copyright">
           &copy; Copyright by
           <a
-            class="footer__link twitter-link"
+            className="footer__link twitter-link"
             target="_blank"
             href="https://twitter.com/jonasschmedtman"
           >

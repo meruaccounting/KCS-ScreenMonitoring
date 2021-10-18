@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Capture from "./public/Capture.png";
+import icon from "../images/icon1.png";
 class Header extends Component {
   constructor() {
     super();
@@ -10,38 +10,45 @@ class Header extends Component {
       <div>
         <div className="header-container">
           <div className="header-tabs">
-            <img src="" alt="logo" className="nav__logo" />
+            <div className="icons">
+              <img src={icon} alt="logo" className="nav__logo" />
+            </div>
             <ul className="nav__link">
-              <li href="#" className="welcome__user">
+              <li href="#" className="welcome__user ">
                 Welcome User
               </li>
               <li>
-                <a href="#" className="nav__items">
+                <a className="nav__items" href="#">
+                  {" "}
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="nav__items">
+                <a className="nav__items" href="#">
                   Username
                 </a>
               </li>
               <li>
-                <a href="#" className="nav__items">
-                  <div class="dropdown">
-                    <button class="dropbtn">Reports</button>
-                    <div class="dropdown-content">
-                      <a href="#">Summary</a>
-                      <a href="#">Detailed</a>
-                      <a href="#">Weekly Reports</a>
-                      <a href="#">Saved Reports</a>
-                    </div>
+                <div className="dropdown">
+                  <button className="dropbtn nav__items">Reports</button>
+                  <div className="dropdown-content">
+                    <a href="#">Summary</a>
+                    <a href="#" className="boder_bottom">
+                      Detailed
+                    </a>
+                    <hr />
+                    <a href="#" className="boder_bottom">
+                      Weekly Reports
+                    </a>
+                    <hr />
+                    <a href="#">Saved Reports</a>
                   </div>
-                </a>
+                </div>
               </li>
             </ul>
           </div>
         </div>
-        <div class="arrow-down"></div>
+        <div className="arrow-down"></div>
       </div>
     );
   }

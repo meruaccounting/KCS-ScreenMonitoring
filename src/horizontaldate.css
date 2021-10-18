@@ -1,0 +1,31 @@
+.calender {
+  display: flex;
+  justify-content: center;
+  border: steelblue 1px solid;
+  margin: 4rem 0;
+  height: 6rem;
+}
+.calender-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  /* padding: 10px; */
+  border: green;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+}
+.day1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  /* padding: 20px; */
+  font-size: 1.2rem;
+  text-align: center;
+  height: 5rem;
+  /* word-wrap: break-word; */
+}
+.day {
+  text-decoration: none;
+}
